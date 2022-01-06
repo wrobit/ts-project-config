@@ -1,0 +1,19 @@
+{
+	"trailing-spaces.trimOnSave": true,
+	"liveshare.featureSet": "insiders",
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.editor.tabSizing": "shrink",
+	"editor.tabSize": 2,
+	"javascript.preferences.quoteStyle": "double",
+	"typescript.preferences.quoteStyle": "double",
+	"workbench.colorTheme": "Atom One Dark",
+	"editor.fontLigatures": true,
+	"editor.fontFamily": "Consolas, 'Courier New', monospace, 'Cascadia Code'",
+	"prettier.trailingComma": "all",
+	"prettier.useTabs": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+	"prettier.requireConfig": true,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"window.zoomLevel": -1
+}
