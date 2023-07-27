@@ -1,4 +1,4 @@
-## My typescript initial config files
+## Typescript config files
 
 * typescript
 * prettier
