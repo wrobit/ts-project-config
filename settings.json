@@ -1,29 +1,33 @@
 {
-	"editor.lineHeight": 21,
+	"workbench.colorTheme": "poimandres",
 	"workbench.iconTheme": "vscode-icons",
+	"workbench.list.smoothScrolling": true,
+
+	"editor.fontFamily": "Dank Mono",
+	"editor.fontLigatures": true,
+	"editor.fontSize": 14,
+	"editor.lineHeight": 21,
 	"editor.suggestSelection": "first",
-	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
 	"editor.tabSize": 2,
-	"prettier.useTabs": true,
-	"prettier.requireConfig": true,
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.formatOnSave": true,
 	"editor.inlineSuggest.enabled": true,
-	"liveServer.settings.donotShowInfoMsg": true,
-	"typescript.updateImportsOnFileMove.enabled": "always",
 	"editor.codeActionsOnSave": {
-		"source.organizeImports": true
+		"source.organizeImports": "explicit"
 	},
-	"vscode-pets.petType": "fox",
-	"vscode-pets.petColor":"orange",
-	"vscode-pets.theme": "forest",
-	"workbench.colorTheme": "Bearded Theme Arc",
-	"editor.fontFamily": "Dank Mono",
 	"editor.minimap.enabled": false,
-	"liveServer.settings.donotVerifyTags": true,
+	"editor.smoothScrolling": true,
 	"editor.cursorSmoothCaretAnimation": "on",
-	"javascript.updateImportsOnFileMove.enabled": "always",
+
 	"terminal.integrated.smoothScrolling": true,
-	"workbench.list.smoothScrolling": true,
-	"editor.smoothScrolling": true
+
+	"prettier.useTabs": true,
+	"prettier.requireConfig": true,
+
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"liveServer.settings.donotShowInfoMsg": true,
+	"liveServer.settings.donotVerifyTags": true,
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"bracket-pair-colorizer-2.depreciation-notice": false,
 }
