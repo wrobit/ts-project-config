@@ -2,6 +2,7 @@
 	"workbench.colorTheme": "poimandres",
 	"workbench.iconTheme": "vscode-icons",
 	"workbench.list.smoothScrolling": true,
+	"workbench.sideBar.location": "left",
 
 	"editor.fontFamily": "Dank Mono",
 	"editor.fontLigatures": true,
