@@ -1,11 +1,11 @@
 {
 	"workbench.list.smoothScrolling": true,
-	"workbench.colorTheme": "poimandres",
+	"workbench.colorTheme": "Ayu Mirage",
 	"workbench.sideBar.location": "left",
 
 	"editor.fontFamily": "Dank Mono",
 	"editor.fontLigatures": true,
-	"editor.fontSize": 16,
+	"editor.fontSize": 15,
 	"editor.fontWeight": "500",
 	"window.zoomLevel": 0,
 	"editor.wordWrap": "on",
