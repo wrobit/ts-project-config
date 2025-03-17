@@ -1,24 +1,28 @@
 {
-	"workbench.colorTheme": "poimandres",
-	"workbench.iconTheme": "vscode-icons",
 	"workbench.list.smoothScrolling": true,
+	"workbench.colorTheme": "poimandres",
 	"workbench.sideBar.location": "left",
 
 	"editor.fontFamily": "Dank Mono",
 	"editor.fontLigatures": true,
-	"editor.fontSize": 14,
-	"editor.lineHeight": 21,
+	"editor.fontSize": 16,
+	"editor.fontWeight": "500",
+	"window.zoomLevel": 0,
+	"editor.wordWrap": "on",
 	"editor.suggestSelection": "first",
 	"editor.tabSize": 2,
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.formatOnSave": true,
 	"editor.inlineSuggest.enabled": true,
 	"editor.codeActionsOnSave": {
-		"source.organizeImports": "explicit"
+		// "source.organizeImports": "explicit",
+		"source.fixAll.eslint": "always"
 	},
 	"editor.minimap.enabled": false,
 	"editor.smoothScrolling": true,
-	"editor.cursorSmoothCaretAnimation": "on",
+	"editor.accessibilitySupport": "off",
+	"editor.cursorBlinking": "smooth",
+	"editor.cursorStyle": "block",
 
 	"terminal.integrated.smoothScrolling": true,
 
@@ -27,8 +31,27 @@
 
 	"typescript.updateImportsOnFileMove.enabled": "always",
 	"javascript.updateImportsOnFileMove.enabled": "always",
-	"liveServer.settings.donotShowInfoMsg": true,
-	"liveServer.settings.donotVerifyTags": true,
-	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-	"bracket-pair-colorizer-2.depreciation-notice": false,
+
+	"gitlens.advanced.messages": {
+		"suppressCreatePullRequestPrompt": true
+	},
+
+
+	"vsicons.dontShowNewVersionMessage": true,
+
+	"gitlens.views.scm.grouped.views": {
+		"commits": true,
+		"branches": false,
+		"remotes": true,
+		"stashes": true,
+		"tags": false,
+		"worktrees": true,
+		"contributors": true,
+		"repositories": false,
+		"searchAndCompare": false,
+		"launchpad": false
+	},
+	"gitlens.views.branches.showStashes": true,
+
+	// "github.copilot.editor.enableAutoCompletions": true,
 }
